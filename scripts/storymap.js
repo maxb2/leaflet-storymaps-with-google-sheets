@@ -83,7 +83,7 @@ $(window).on('load', function() {
     $('#title').append('<small>' + getSetting('_mapSubtitle') + '</small>');
 
     // Load tiles
-    addBaseMap();
+    // addBaseMap();
 
     // Add zoom controls if needed
     if (getSetting('_zoomControls') !== 'off') {
